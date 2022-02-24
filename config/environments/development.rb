@@ -55,6 +55,10 @@ Rails.application.configure do
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
 
+  # To render debugging information preserving the response format, use the value :api.
+  # To render an HTML page with debugging information, use the value :default.
+  config.debug_exception_response_format = :api
+
   # Use an evented file watcher to asynchronously detect changes in source code,
   # routes, locales, etc. This feature depends on the listen gem.
   # config.file_watcher = ActiveSupport::EventedFileUpdateChecker

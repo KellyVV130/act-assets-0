@@ -1,0 +1,18 @@
+
+<h1>实验室设备列表</h1>
+
+<table>
+  <tr>
+    <th>设备编号</th>
+    <th>分配日期</th>
+    <th></th>
+  </tr>
+
+  <% @equipments.each do |equipment| %>
+    <tr>
+      <td><%= equipment.equipment_number %></td>
+      <td><%= equipment.allocated_since %></td>
+      <td><%= link_to '详情', equipment_path(equipment) %></td>
+    </tr>
+  <% end %>
+</table>

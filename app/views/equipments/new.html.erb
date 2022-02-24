@@ -1,0 +1,18 @@
+<h1>新建/添加实验室设备</h1>
+
+<!--form_with helper，传送含有需要数据的post请求给含有equipments前缀的url-->
+<%= form_with scope: :equipment, url: equipments_path, local: true do |form| %> <!--scope接收的参数是单数-->
+  <p>
+    <%= form.label :设备编号 %><br>
+    <%= form.text_field :equipment_number %>
+  </p>
+
+  <p>
+    <%= form.label :分配自 %><br>
+    <%= form.text_area :allocated_since %>
+  </p>
+
+  <p>
+    <%= form.submit %>
+  </p>
+<% end %>

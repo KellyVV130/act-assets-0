@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  equipment_number: 1
+  allocated_since: 2022-02-23 20:00:59
+
+two:
+  equipment_number: 1
+  allocated_since: 2022-02-23 20:00:59
