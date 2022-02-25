@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  top: 1
+  left: 1
+  right: 1
+  bottom: 1
+  room: one
+
+two:
+  name: MyString
+  top: 1
+  left: 1
+  right: 1
+  bottom: 1
+  room: two

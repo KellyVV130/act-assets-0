@@ -35,7 +35,6 @@ class EquipmentsController < ApplicationController
     head :no_content
   end
 
-
   private
   def equipment_params
     params.require(:equipment).permit(:equipment_number, :allocated_since)
